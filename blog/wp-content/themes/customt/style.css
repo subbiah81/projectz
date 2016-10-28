@@ -1,0 +1,47 @@
+/*
+Theme Name: Custome Theme
+Version: 1.0
+*/
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 10px 0;
+        border: 0;
+        background-color: #222;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+}
+
+#blog a{
+	color: inherit;
+}
+
+#blog h3.section-subheading {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#blog h2.section-heading {
+	margin-bottom: 0px;
+	font-size: 32px;
+}
+
+#blog p {
+	margin-bottom: 5px;
+}
+
+.pagenationleft {
+	
+}
+
+.pagenationright {
+	text-align: right;
+}
+
+.commentsubmit {
+	color: #ffffff;
+	background-color: #fed136;
+	border-color: #fed136;
+}
